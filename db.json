@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "email": "mohaabdikadiir@gmail.com",
+      "password": "12366",
+      "id": "5973"
+    },
+    {
+      "id": "4863",
+      "email": "AHAJIKO@GMAIL.COM",
+      "password": "12345"
+    },
+    {
+      "id": "08fb",
+      "email": "mohaabdikadiir@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "976a",
+      "email": "mohaabdikadiir@gmail.com",
+      "password": "1234567"
+    }
+  ],
+  "contacts": [
+    {
+      "firstName": "Mohamed",
+      "lastName": "Abdi",
+      "email": "mohaabdikadiir@gmail.com",
+      "contactNumber": "0725831959",
+      "message": "i want to enroll there\n",
+      "id": "7738"
+    },
+    {
+      "id": "d2a1",
+      "firstName": "ABDI ALI",
+      "lastName": "Abdi",
+      "email": "mohaabdikadiir@gmail.com",
+      "contactNumber": "0725831959",
+      "message": "I WANT TO ENROLL"
+    },
+    {
+      "id": "365c",
+      "firstName": "ASHA",
+      "lastName": "AJIKO",
+      "email": "MOHA@GMAIL.COM",
+      "contactNumber": "09948844",
+      "message": "I WANT TO ENROLL"
+    },
+    {
+      "id": "baee",
+      "firstName": "Mohamed",
+      "lastName": "Abdi",
+      "email": "mohaabdikadiir@gmail.com",
+      "contactNumber": "0725831959",
+      "message": "i want to enroll"
+    },
+    {
+      "firstName": "Mohamed",
+      "lastName": "Abdi",
+      "email": "mohaabdikadiir@gmail.com",
+      "contactNumber": "0725831959",
+      "message": "i want to enroll now",
+      "id": "7196"
+    }
+  ]
+}

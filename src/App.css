@@ -1,0 +1,213 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  border-radius: 1.5rem;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.courses-container {
+  padding: 2rem;
+  background: #f5f5f5;
+  text-align: center;
+  border-radius: 1.5rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  border-radius: 1.5rem;
+}
+
+.card {
+  width: 400px; /* Increased width */
+  height: 410px; /* Increased height */
+  border-radius: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid transparent;
+  margin: 1rem auto;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.content {
+  padding: 1.1rem;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.7rem;
+  height: 180px;
+}
+
+.html-bg {
+  background-color: #f06529;
+}
+
+.css-bg {
+  background-color: #2965f1;
+}
+
+.js-bg {
+  background-color: #f0db4f;
+}
+
+.card .title {
+  color: #111827;
+  font-size: 1.5rem; /* Increased font size */
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.desc {
+  margin-top: 0.5rem;
+  color: #4b5058;
+  font-size: 1rem; /* Increased font size */
+  line-height: 1.5rem; /* Increased line height */
+}
+
+.action {
+  display: inline-flex;
+  margin-top: 1rem;
+  color: #ffffff;
+  font-size: 1rem; /* Slightly larger font size */
+  line-height: 1.5rem;
+  font-weight: 600; /* Increased font weight for better emphasis */
+  align-items: center;
+  gap: 0.5rem; /* Increased gap for better spacing */
+  background-color: #2563eb;
+  padding: 12px 20px; /* Adjusted padding for a more balanced look */
+  border-radius: 8px; /* Increased border radius for a smoother appearance */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06); /* Added subtle shadow for depth */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer; /* Pointer cursor to indicate clickability */
+}
+
+.action span {
+  transition: transform 0.3s ease;
+}
+
+.action:hover span {
+  transform: translateX(6px); /* Slightly more pronounced animation */
+}
+
+.action:hover {
+  background-color: #22c55e;
+ 
+}
+
+
+.btn-donate {
+  --clr-font-main: hsla(0 0% 20% / 100);
+  --btn-bg-1: hsla(194 100% 69% / 1);
+  --btn-bg-2: hsla(217 100% 56% / 1);
+  --btn-bg-color: hsla(360 100% 100% / 1);
+  --radii: 0.5em;
+  cursor: pointer;
+  padding: 0.9em 1.4em;
+  min-width: 120px;
+  min-height: 44px;
+  font-size: var(--size, 1rem);
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-weight: 500;
+  transition: 0.8s;
+  background-size: 280% auto;
+  background-image: linear-gradient(325deg, var(--btn-bg-2) 0%, var(--btn-bg-1) 55%, var(--btn-bg-2) 90%);
+  border: none;
+  border-radius: var(--radii);
+  color: var(--btn-bg-color);
+
+  box-shadow: 0px 0px 20px rgba(71, 184, 255, 0.5), 0px 5px 5px -1px rgba(58, 125, 233, 0.25), inset 4px 4px 8px rgba(175, 230, 255, 0.5), inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+}
+
+.btn-donate:hover {
+  background-position: right top;
+}
+
+.btn-donate:is(:focus, :focus-visible, :active) {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--btn-bg-color), 0 0 0 6px var(--btn-bg-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-donate {
+    transition: linear;
+  }
+}
+
+
+.icon-rounded {
+  border-radius: 50%;
+}
+
+.introduction {
+  text-align: left;
+  margin-left: 2rem; /* Adjust the left margin as needed */
+  margin-bottom: 2rem; /* Add space at the bottom */
+  line-height: 1.6; /* Adjust line height for readability */
+}
+
+.introduction-title {
+  font-size: 24px; /* Adjust the font size as needed */
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.introduction ul {
+  list-style-type: disc; /* Use disc for bullet points */
+  margin-left: 2rem; /* Indent bullet points */
+  margin-bottom: 1rem; /* Add space between lists */
+}
+
+.introduction p {
+  margin-bottom: 1rem; /* Add space between paragraphs */
+}
